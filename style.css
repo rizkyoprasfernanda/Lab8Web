@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+table td img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+/* Form Tambah Barang */
+form {
+  width: 400px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.input input,
+.input select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit input {
+  padding: 8px 20px;
+  background-color: #3467e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit input:hover {
+  background-color: #172b88;
+}
